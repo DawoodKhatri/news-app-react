@@ -15,6 +15,7 @@ const StoryCard = ({
         src={url}
         width="100%"
         scrolling="no"
+        role="iframe"
         sandbox="allow-same-origin allow-scripts"
         className="rounded-md aspect-video pointer-events-none border"
       ></iframe>
